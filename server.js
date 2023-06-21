@@ -16,7 +16,10 @@ app.get('/hai', (req, res) => {
     res.send("Hai World!!!")
 })
 
-
+app.get('/get', (req, res) => {
+    console.log("get")
+    res.send("get World!!!")
+})
 
 
 
